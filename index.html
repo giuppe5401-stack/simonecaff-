@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>da Simo — Punto Cialde & Capsule</title>
+  <meta name="description" content="Demo sito due pagine per da Simo — Punto Cialde & Capsule. Verde acido, palette caffè, prodotti e marche compatibili." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{
+      --acid:#B8FF3D;
+      --espresso:#4B2E2B;
+      --mocha:#7B3F00;
+      --latte:#C2A080;
+      --crema:#EED9C4;
+      --foam:#F5EFE6;
+    }
+    body{ font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  </style>
+</head>
+<body class="bg-[var(--acid)] text-[var(--espresso)]">
+  <div id="root"></div>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "da Simo — Punto Cialde e Capsule",
+    "image": "https://images.unsplash.com/photo-1445077100181-a33e9ac94db0?q=80&w=1200&auto=format&fit=crop",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Aroma 10",
+      "addressLocality": "Genova",
+      "postalCode": "16100",
+      "addressCountry": "IT"
+    },
+    "telephone": "+39 010 1234567",
+    "url": "https://example.com"
+  }
+  </script>
+  <script src="./script.js"></script>
+</body>
+</html>
