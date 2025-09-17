@@ -19,12 +19,12 @@ function StarRow({score=5}){
 }
 
 const PRODUCTS=[
-  {id:1,name:"Moka Classica 3 Tazze",price:"€29,90",rating:4.7,img:"https://images.unsplash.com/photo-1512568400610-62da28bc8a13?q=80&w=1200&auto=format&fit=crop",tags:["Moka","Alluminio"]},
-  {id:2,name:"Caffè Arabica Premium 250g",price:"€12,50",rating:4.8,img:"https://images.unsplash.com/photo-1445077100181-a33e9ac94db0?q=80&w=1200&auto=format&fit=crop",tags:["Arabica","Monorigine"]},
-  {id:3,name:"Macinacaffè Manuale Pro",price:"€49,00",rating:4.6,img:"https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=1200&auto=format&fit=crop",tags:["Grinder","Acciaio"]},
-  {id:4,name:"French Press Vetro 600ml",price:"€34,90",rating:4.5,img:"https://images.unsplash.com/photo-1519336555923-59661f41bb89?q=80&w=1200&auto=format&fit=crop",tags:["French Press","Vetro"]},
-  {id:5,name:"Tazze Espresso (2pz)",price:"€16,90",rating:4.4,img:"https://images.unsplash.com/photo-1498804103079-a6351b050096?q=80&w=1200&auto=format&fit=crop",tags:["Tazze","Porcellana"]},
-  {id:6,name:"Aeropress Go + Filtri",price:"€39,90",rating:4.7,img:"https://images.unsplash.com/photo-1502462041640-b3d7e50d066b?q=80&w=1200&auto=format&fit=crop",tags:["Aeropress","Viaggio"]},
+  {id:1,name:"Moka Classica 3 Tazze",price:"€29,90",rating:4.7,img:"assets/prod1.jpg",tags:["Moka","Alluminio"]},
+  {id:2,name:"Caffè Arabica Premium 250g",price:"€12,50",rating:4.8,img:"assets/prod2.jpg",tags:["Arabica","Monorigine"]},
+  {id:3,name:"Macinacaffè Manuale Pro",price:"€49,00",rating:4.6,img:"assets/prod3.jpg",tags:["Grinder","Acciaio"]},
+  {id:4,name:"French Press Vetro 600ml",price:"€34,90",rating:4.5,img:"assets/prod4.jpg",tags:["French Press","Vetro"]},
+  {id:5,name:"Tazze Espresso (2pz)",price:"€16,90",rating:4.4,img:"assets/prod5.jpg",tags:["Tazze","Porcellana"]},
+  {id:6,name:"Aeropress Go + Filtri",price:"€39,90",rating:4.7,img:"assets/prod6.jpg",tags:["Aeropress","Viaggio"]},
 ];
 
 function App(){
@@ -65,7 +65,7 @@ function App(){
           </div>
           <div className="relative">
             <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-xl ring-4 ring-[var(--crema)]">
-              <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?q=80&w=1600&auto=format&fit=crop" alt="Attrezzatura per caffè" className="w-full h-full object-cover"/>
+              <img src="assets/hero.jpg" alt="Attrezzatura per caffè" className="w-full h-full object-cover"/>
             </div>
             <div className="absolute -bottom-6 -left-6 bg-[var(--foam)] rounded-2xl shadow p-4 text-sm">☕ Punto Cialde & Capsule • Compatibilità principali</div>
           </div>
